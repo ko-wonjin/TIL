@@ -96,10 +96,10 @@ git push -u origin main
 ```
 git remote
 ```
+---
 ## GitHub에서 프로젝트 다운
 ```
 git clone (원격 저장소 주소)
 ```
- 
 
 
