@@ -90,9 +90,10 @@ GML -> SGML -> SGMLguid -> HTML
 
 ---
 ## font
- `<font size="1~7" color="color">` Hello `</font>` World
- ---
- ## 의미론적인 태그
+`<font size="1~7" color="color">` Hello `</font>` World
+
+---
+## 의미론적인 태그
  - `<header>`
  - `<article>`
  - `<footer>`
