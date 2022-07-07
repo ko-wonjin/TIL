@@ -29,22 +29,40 @@
 >> flukeout.github.io
 ---
 ## 가상클래스 선택자
-- a:active{ }
-- a:hovered{ }
-- a:visited{ }
-- a:link{ }
-- a:focus{ }
+```
+a:active{ }
+```
+```
+a:hovered{ }
+```
+```
+a:visited{ }
+```
+```
+a:link{ }
+```
+```
+a:focus{ }
+```
 ---
 ## 타이포그래피
 1. font-size
 - rem : 사용자가 폰트 크기 임의 변경가능
 - px
 2. color
-- a{color:red}
-- RGB:rgb(n,n,n) -> 0<=n<=255
-- Hexadecimal Colors:{color:#00FF00}
+```
+a{color:red}
+```
+```
+RGB:rgb(n,n,n) -> 0<=n<=255
+```
+```
+Hexadecimal Colors:{color:#00FF00}
+```
 3. text-align
-- text align: justify
+```
+text align: justify
+```
 4. font
 - 글꼴: 
 
@@ -59,6 +77,8 @@ line height: 120px;
 }
 > font :font-style font-variant font-weight font-size/line-height font-family...
 ---
+## 여러가지 기능
+
 
 
 
