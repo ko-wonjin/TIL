@@ -1,6 +1,6 @@
 const inputbox = document.getElementById('inputbox');
 const enterbtn = document.getElementById('button-enter');
-const ToDoList = document.getElementById('list');
+const ToDoList = document.getElementById('list'); 
 const checkAll = document.getElementById('check-all');
 const uncheckAll = document.getElementById('uncheck-all');
 const removeCheck = document.getElementById('remove-check');
@@ -11,7 +11,7 @@ checkAll.addEventListener('click', allCheck);
 uncheckAll.addEventListener('click', allUncheck);
 
 
-function addToDoList() {
+function addToDoList() { 
     const newToDoList = document.createElement('li');
     newToDoList.className = 'd-flex justify-content-between';
     newToDoList.innerHTML = `<span id="checkboxcontent"><input type="checkbox" name="checkbox"><input type="text" value="${inputbox.value}" readOnly></input></span>`;
